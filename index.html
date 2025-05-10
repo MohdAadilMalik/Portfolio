@@ -1,0 +1,2162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ - Full Stack Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li><a href="#journey" class="nav-link">Journey</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-info">
+                <div class="hero-text">
+                    <h1>Hi, I'm Aadil</h1>
+                    <p class="role">Full Stack Developer</p>
+                    <div class="objective">
+                        <p class="objective-text">Experienced software engineer with a passion for building scalable, efficient, and user-centric web applications.</p>
+                        <button class="btn know-more" onclick="toggleObjective()">Know More</button>
+                        <div class="objective-full" style="display: none;">
+                            <p class="objective-text">Specializing in .NET Core and React.js development, I leverage my 7+ years of industry experience to deliver robust solutions that drive business growth and enhance user experiences.</p>
+                            <p class="objective-subtext">Crafting innovative solutions with ASP.NET Core & React</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-and-skills">
+                    <div class="profile-image">
+                        <img src="images/profile.png" alt="XYZ Profile" class="profile-img">
+                    </div>
+                    <div class="skills-summary">
+                        <div class="skill-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-dot-net"></i>
+                                </div>
+                                <span>ASP.NET Core</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <span>React</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <span>SQL Server</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-azure"></i>
+                                </div>
+                                <span>Azure DevOps</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-code-branch"></i>
+                                </div>
+                                <span>Microservices</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/mohd-aadil-20a930193/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>Connect on LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <p class="lead">Experienced software engineer with a passion for building scalable, efficient, and user-centric web applications. Specializing in .NET Core and React.js development, I leverage my 7+ years of industry experience to deliver robust solutions that drive business growth and enhance user experiences.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="skills-container">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="skill-item text-center p-3 bg-light rounded-3">
+                                    <div class="skill-icon mb-2">
+                                        <i class="fab fa-dot-net fs-3"></i>
+                                    </div>
+                                    <span>ASP.NET Core</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="skill-item text-center p-3 bg-light rounded-3">
+                                    <div class="skill-icon mb-2">
+                                        <i class="fab fa-react fs-3"></i>
+                                    </div>
+                                    <span>React</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="skill-item text-center p-3 bg-light rounded-3">
+                                    <div class="skill-icon mb-2">
+                                        <i class="fas fa-database fs-3"></i>
+                                    </div>
+                                    <span>SQL Server</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="skill-item text-center p-3 bg-light rounded-3">
+                                    <div class="skill-icon mb-2">
+                                        <i class="fab fa-js fs-3"></i>
+                                    </div>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="skill-item text-center p-3 bg-light rounded-3">
+                                    <div class="skill-icon mb-2">
+                                        <i class="fab fa-azure fs-3"></i>
+                                    </div>
+                                    <span>Azure DevOps</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="skill-item text-center p-3 bg-light rounded-3">
+                                    <div class="skill-icon mb-2">
+                                        <i class="fas fa-microchip fs-3"></i>
+                                    </div>
+                                    <span>Microservices</span>
+                                </div>
+                            </div>
+                        </div>
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <span>REST APIs</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <span>CI/CD</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <span>Responsive Design</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                        <span>Unit Testing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/HealthCare.jpg" alt="RLDatis Healthcare System">
+                    <div class="tech-stack">
+                        <span>.NET Core</span>
+                        <span>React</span>
+                        <span>Docker</span>
+                        <span>Microservices</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>RLDatis Healthcare System</h3>
+                    <p>Developed a comprehensive healthcare management system using .NET Core microservices architecture. Implemented real-time patient monitoring, appointment scheduling, and medical records management.</p>
+                    <ul class="project-highlights">
+                        <li>Designed and implemented microservices using .NET Core</li>
+                        <li>Created a responsive React-based frontend</li>
+                        <li>Implemented Docker containerization for deployment</li>
+                        <li>Developed RESTful APIs for seamless integration</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/mohdaadilmalik/RLDatis" class="btn" target="_blank">Source Code</a>
+                        <a href="https://rldatis.com" class="btn" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/barcode-tracking-system.jpg" alt="Barcode Tracking System">
+                    <div class="tech-stack">
+                        <span>ASP.NET MVC</span>
+                        <span>SQL Server</span>
+                        <span>Entity Framework</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Barcode Tracking System</h3>
+                    <p>Enhanced the barcode tracking system for Brakes India Pvt Ltd, improving inventory management and production tracking with real-time data processing.</p>
+                    <ul class="project-highlights">
+                        <li>Optimized barcode scanning process</li>
+                        <li>Implemented real-time inventory tracking</li>
+                        <li>Created automated reporting system</li>
+                        <li>Improved production line efficiency</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="btn">Source Code</a>
+                        <a href="https://brakesindia.com" class="btn" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/WeightReadingAutomation.jpg" alt="Weight Reading Automation">
+                    <div class="tech-stack">
+                        <span>C#</span>
+                        <span>Windows Forms</span>
+                        <span>KepServer</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Weight Reading Automation</h3>
+                    <p>Developed a Windows application for automatic weight reading using KepServer tags, streamlining production line operations and improving accuracy.</p>
+                    <ul class="project-highlights">
+                        <li>Integrated KepServer for real-time data collection</li>
+                        <li>Implemented automated weight reading system</li>
+                        <li>Created data visualization dashboard</li>
+                        <li>Improved production line efficiency</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="btn">Source Code</a>
+                        <a href="#" class="btn">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Description of project 3</p>
+                <div class="project-links">
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="journey" class="journey py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">My Journey</h2>
+            <div class="timeline">
+                <!-- Current Position -->
+                <div class="timeline-item">
+                    <div class="timeline-content bg-light p-4 rounded-3">
+                        <div class="timeline-icon bg-primary text-white rounded-circle">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="company-info mb-4">
+                            <h3 class="h5 mb-2">GlobalLogic</h3>
+                            <p class="text-muted small">Oct 2021 - Present (3 yrs 8 mos)</p>
+                            <p class="text-muted small">Noida, Uttar Pradesh, India · Hybrid</p>
+                        </div>
+                        <div class="role-info mb-4">
+                            <h4 class="h6 mb-2">Senior Software Engineer</h4>
+                            <div class="tech-stack mb-3">
+                                <span class="badge bg-primary">ASP.NET Web API</span>
+                                <span class="badge bg-primary">.NET Core</span>
+                                <span class="badge bg-primary">C#</span>
+                                <span class="badge bg-primary">Backbone.js</span>
+                                <span class="badge bg-primary">Visual Studio 2022</span>
+                                <span class="badge bg-primary">Jira</span>
+                                <span class="badge bg-primary">Azure Kubernetes Service (AKS)</span>
+                            </div>
+                        </div>
+                        <div class="project-card mb-3">
+                            <h4 class="mb-2">RLDatix Healthcare System</h4>
+                            <div class="project-description mb-3">
+                                <p>A dynamic healthcare system designed to track the availability of skilled professionals based on specific requirements.</p>
+                            </div>
+                            <h5 class="mb-2">Key Responsibilities and Achievements:</h5>
+                            <div class="responsibilities mb-3">
+                                <h6>Bug Fixing and Optimization:</h6>
+                                <ul class="project-highlights">
+                                    <li>Spearheaded critical bug-fixing initiatives, ensuring the reliability and smooth operation of the healthcare system</li>
+                                    <li>Conducted rigorous debugging sessions in Visual Studio 2022, utilizing C# for both ASP.NET Web API and .NET Core</li>
+                                </ul>
+                                <h6>Feature Development:</h6>
+                                <ul class="project-highlights">
+                                    <li>Led the development of strategic add-on features to enhance the capabilities of the healthcare system</li>
+                                    <li>Collaborated closely with cross-functional teams using Agile methodologies and Jira</li>
+                                </ul>
+                                <h6>ASP.NET Web API and .NET Core Expertise:</h6>
+                                <ul class="project-highlights">
+                                    <li>Architected and implemented robust, scalable, and secure web-based functionalities</li>
+                                    <li>Developed and maintained critical system components using C#</li>
+                                </ul>
+                                <h6>Project Collaboration:</h6>
+                                <ul class="project-highlights">
+                                    <li>Participated in Agile ceremonies (sprint planning, daily stand-ups, retrospectives)</li>
+                                    <li>Fostered a collaborative environment for effective communication</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Previous Position -->
+                <div class="timeline-item">
+                    <div class="timeline-content bg-light p-4 rounded-3">
+                        <div class="timeline-icon bg-primary text-white rounded-circle">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="company-info mb-4">
+                            <h3 class="h5 mb-2">Motherson Technology Services</h3>
+                            <p class="text-muted small">Jul 2018 - Oct 2021 (3 yrs 4 mos)</p>
+                            <p class="text-muted small">Noida, Uttar Pradesh, India · On-site</p>
+                        </div>
+                        <div class="role-info mb-4">
+                            <h4 class="h6 mb-2">Software Developer</h4>
+                            <div class="tech-stack mb-3">
+                                <span class="badge bg-primary">ASP.NET</span>
+                                <span class="badge bg-primary">C#</span>
+                                <span class="badge bg-primary">WinForms</span>
+                                <span class="badge bg-primary">Entity Framework</span>
+                            </div>
+                        </div>
+                        <div class="project-card mb-3">
+                            <h4 class="mb-2">Barcode Tracking System</h4>
+                            <div class="project-description mb-3">
+                                <p>Enhanced the functionality and performance of Breaks India Pvt Ltd's barcode tracking system</p>
+                            </div>
+                            <h5 class="mb-2">Key Responsibilities and Achievements:</h5>
+                            <div class="responsibilities mb-3">
+                                <h6>Bug Fixing and Optimization:</h6>
+                                <ul class="project-highlights">
+                                    <li>Identified and resolved software bugs in the barcode tracking system</li>
+                                    <li>Conducted debugging sessions using C# for Windows App Forms and ASP.NET</li>
+                                </ul>
+                                <h6>Feature Development:</h6>
+                                <ul class="project-highlights">
+                                    <li>Developed add-on features to meet evolving project requirements</li>
+                                    <li>Collaborated with cross-functional teams for feature development</li>
+                                </ul>
+                                <h6>ASP.NET and C# Expertise:</h6>
+                                <ul class="project-highlights">
+                                    <li>Implemented responsive web-based solutions using ASP.NET</li>
+                                    <li>Developed and maintained C# Windows App Forms applications</li>
+                                </ul>
+                                <h6>Project Collaboration:</h6>
+                                <ul class="project-highlights">
+                                    <li>Worked closely with team members to understand system requirements</li>
+                                    <li>Participated in Agile ceremonies (sprint planning, daily stand-ups)</li>
+                                </ul>
+                                <h6>Continuous Improvement:</h6>
+                                <ul class="project-highlights">
+                                    <li>Stayed abreast of emerging technologies and coding practices</li>
+                                    <li>Continually improved system architecture and performance</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="card shadow-sm">
+                        <div class="card-body p-4">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 XYZ. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show Less';
+                fullText.style.display = 'block';
+            } else {
+                button.textContent = 'Know More';
+                fullText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+    <script>
+        function toggleObjective() {
+            const button = document.querySelector('.know-more');
+            const fullText = document.querySelector('.objective-full');
+            const buttonText = button.textContent;
+            
+            if (buttonText === 'Know More') {
+                button.textContent = 'Show
